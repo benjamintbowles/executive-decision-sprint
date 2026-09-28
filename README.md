@@ -1,108 +1,74 @@
 # Executive Decision Sprint
 
-**An AI-assisted decision-support project by Benjamin Bowles, Founder & Managing Director of Nett Werth LLC.**
+**A human-reviewed Decision Brief for one consequential decision.**
 
-One consequential decision. A clear recommendation. Evidence someone can examine and challenge.
+An AI-assisted decision-support product by **Benjamin Bowles, Founder & Managing Director of Nett Werth LLC**.
 
-## Why I am building it
+A consequential decision rarely arrives with complete evidence, agreement, or control over the outcome. EDS helps a decision owner frame the choice, examine the evidence, compare viable options, and decide what to do next—and what would justify changing course.
 
-Leaders often have plenty of information and still struggle to make a decision. The problem may be an unclear question, an assumption treated as a fact, a missing alternative, or uncertainty about what would justify changing course.
+**Status: working private beta · updated September 28, 2026.** Live AI generation and two authorized email-and-workflow test journeys have passed. Customer validation and readiness for a public, paid launch remain open.
 
-The Executive Decision Sprint is designed to help a decision owner work through that problem. It brings structure to the evidence, options, tradeoffs, recommendation, and next steps. The decision owner remains accountable for the choice.
+![Executive Decision Sprint landing page, showing a clearly labeled fictional manufacturing decision](assets/eds-landing-2026-09-28.jpg)
 
-My background spans public-sector technology, commercial strategy, and operational governance in the United States and Singapore. That experience informs the project: a useful recommendation needs to survive questions from the people who must fund, implement, and live with it.
+*Actual private-beta interface, captured September 28. The manufacturing case shown is fictional; it is not a customer engagement or a business result.*
 
-## Project status and my role
+## From a difficult choice to a usable Decision Room
 
-EDS is in beta. This repository is a public project walkthrough containing an illustrative decision brief. It documents the product concept and reasoning approach; it contains no executable application or production source code.
-
-I lead the product direction, decision framing, workflow requirements, and review of recommendations. AI assistance supports development and preparation of project materials. My contribution centers on product judgment, domain experience, and the standards a useful decision brief should meet.
-
-This portfolio page and its fictional example were prepared with AI assistance. The example is an illustration of the design, not a recorded output from a live EDS engagement. No customer result, measured time saving, or commercial outcome is claimed here.
-
-## What the Sprint is designed to produce
-
-- A clearly framed decision with an accountable owner.
-- A direct recommendation and the reasoning behind it.
-- A comparison of viable options and material tradeoffs.
-- A record separating evidence, inference, assumptions, and unknowns.
-- Practical next steps and conditions that would change the recommendation.
-
-### Division of responsibility
-
-| AI assistance | Human judgment |
+| Step | What happens |
 | --- | --- |
-| Organize supplied information and draft comparisons. | Define the actual decision, priorities, and boundaries. |
-| Suggest alternative interpretations and questions. | Check sources, challenge assumptions, and decide what is material. |
-| Draft a recommendation for review. | Accept, revise, or reject it and approve the final brief. |
+| Frame the decision | A short starting intake identifies the choice, deadline, and difficulty. Guided evidence collection then develops the Decision Record. |
+| Prepare the analysis | AI organizes the supplied material and drafts a recommendation, alternatives, assumptions, and objections. |
+| Review and challenge | The owner examines the exact customer preview, corrects the draft, asks for clarification, or requests further evaluation. |
+| Approve and deliver | The reviewed version is released to a private Decision Room, with customer and owner email notifications. |
+| Learn from the outcome | The recipient records feedback, intended adoption, and a later outcome. |
 
-The intended workflow keeps human review between an AI-generated draft and a delivered recommendation. Structured analysis is useful only when its evidence and reasoning hold up.
+The delivered room brings together a short answer, its supporting evidence, the strongest case against it, a cost comparison, conditions for proceeding, a 30-day action path, and a decision-specific working tool. Interactive scenario controls help expose what a changed assumption would do to the option ranking; they do not establish that an assumption is true.
 
-## Worked example: should a team invest in AI document search?
+## What has been demonstrated
 
-**Fictional demonstration. Every number, organization detail, and decision condition below was constructed for this portfolio. These are scenario inputs and illustrative calculations, not research findings or beta results.**
+On September 28, the deployed private beta completed two fictional owner-operations test journeys through analysis, review and editing, approval, email delivery, customer-room display, feedback, and outcome recording.
 
-### The question
+- Six transactional notifications were confirmed delivered across the two journeys.
+- The landing page's main call to action opened its three-question starting intake.
+- The public beta and portable student kit were preserved.
+- Software-test records remained excluded from the customer-validation count.
 
-A ten-person service team wants to reduce the time it spends finding answers in public guidance documents. The operations lead must decide whether to improve the existing search process, run a four-week AI pilot, or move directly to a wider AI rollout.
+These checks establish that the exercised workflows worked. They do **not** establish customer demand, better business decisions, guaranteed savings, or readiness for unrestricted production use.
 
-### Supplied scenario inputs
+[Read the verification scope and remaining work](docs/beta-verification.md).
 
-| Input | Value | Evidence status |
-| --- | --- | --- |
-| Team size | 10 people | Given within this fictional scenario |
-| Search time | 2 hours per person per week | Estimate; needs a measured baseline |
-| Value assigned to staff time | $50 per hour | Planning assumption; not cash savings |
-| Existing-process improvement | $400 once; estimated 15% reduction in search time | Untested estimate |
-| AI pilot setup | $1,600 once | Assumed price |
-| AI running cost | $120 per week | Assumed price |
-| Additional review effort | $100 per week | Untested estimate, additional to remaining search time |
-| AI search-time reduction | 30% | Untested estimate, before additional review effort |
+## The review is part of the product
 
-### Compare the options
+In the latest software tests, generated drafts included timing and currency assumptions that needed correction. Review separated an authorization deadline from the later completion of a two-week pilot and removed unsupported currency conversions before release.
 
-The assumed current search burden is 10 people × 2 hours × $50 = **$1,000 per week in staff-time value**. Recovered time becomes useful capacity only if the team can put it to worthwhile work; it is not automatically a budget reduction.
+That is a concrete reason to keep an accountable review step. A polished recommendation still needs someone to check what is true, what is assumed, what is missing, and what the decision owner can actually authorize.
 
-| Option | Four-week illustration | Main uncertainty |
-| --- | --- | --- |
-| Improve the existing process | $600 of recovered-time value minus $400 setup = **$200 net value** | Whether a 15% improvement occurs and persists |
-| Run the AI pilot | $1,200 of recovered-time value minus $1,600 setup, $480 running cost, and $400 extra review = **−$1,280 net value** | Answer quality, actual time saved, and review burden |
-| Roll out broadly now | **Not estimable from the supplied inputs** | Deployment cost, support needs, performance, and adoption are untested |
+| AI assistance | Human responsibility in the intended service |
+| --- | --- |
+| Organize supplied evidence and draft comparisons. | Define the decision, priorities, authority, and boundaries. |
+| Suggest alternatives, objections, and questions. | Check material claims and challenge the reasoning. |
+| Prepare a draft and supporting tools. | Revise or reject it, approve release, and retain accountability for the decision. |
 
-If all the AI assumptions held after the pilot, the recurring net value would be $300 − $120 − $100 = **$80 per week**, before recovering setup cost. Simple setup payback would take **20 weeks** at that rate. This is a scenario calculation, not a forecast.
+## My role
 
-### Illustrative recommendation
+I lead product direction, decision framing, workflow requirements, customer experience, and the standards used to review recommendations. My background spans public-sector technology, commercial strategy, and operational governance in the United States and Singapore.
 
-**Improve the existing process first and measure the result.** The supplied estimates do not support an immediate AI rollout. A pilot could still be justified as a learning investment, but its owner should explicitly accept that purpose and cost.
+AI-assisted development supports implementation and testing. This project demonstrates my work in designing and governing a decision-support service; it does not imply that I hand-coded every component or that AI-generated analysis is independently verified.
 
-The $200 four-week advantage for the existing-process option is modest and uncertain. The reason to start there is the smaller commitment and the opportunity to establish a usable baseline.
+## Architecture and student collaboration
 
-### What would change the recommendation?
+The private application uses React, Vite/Vinext, a Cloudflare Worker and D1, with OpenAI for optional analysis and Resend for transactional delivery. Sites currently hosts the private review deployment.
 
-- Measured search workload is materially higher than estimated.
-- A demonstration shows reliable source-backed answers and less review effort.
-- Setup or operating costs fall enough to improve the comparison.
-- The decision owner identifies a valuable outcome beyond time saved and defines how to evaluate it.
+A portable AI4VA practice kit has been prepared with fictional cases, local setup instructions, tests, and instructor guidance. It is intended to let students examine intake, workflow, and evidence quality in a separate development environment.
 
-### Immediate next steps
+This public repository contains the product walkthrough and sanitized documentation. Application source, production configuration, private Decision Rooms, customer records, and credentials are not published here.
 
-1. Record search time and difficult questions for one working week.
-2. Improve document organization and search guidance, then compare performance on similar tasks.
-3. If AI remains promising, test representative questions using public documents. Include ambiguous questions and questions the documents cannot answer.
-4. Recalculate the comparison using observed performance, including verification and correction time, before authorizing a wider commitment.
+[Read the architecture and collaboration boundaries](docs/architecture-and-collaboration.md).
 
-### What this example demonstrates
+## Explore and follow the work
 
-A decision-support product should make the assumptions visible, calculate their implications consistently, consider a simpler alternative, and explain what evidence would change its recommendation. A polished answer is only useful if the decision owner can examine the reasoning.
+- [Earlier public beta](https://nettwerth-beta-next.benjamin-bowles88.chatgpt.site/) — preserved separately; it is not the latest private review deployment.
+- [September 16 portfolio walkthrough](docs/archive/portfolio-2026-09-16.md) — the original fictional worked example, retained for continuity.
+- [LinkedIn — Benjamin Bowles](https://www.linkedin.com/in/benjamintbowles)
 
-## What I want to learn next
-
-Future evaluation should examine whether decision owners understand the tradeoffs, can distinguish evidence from assumptions, and find the next steps useful. It should also track factual corrections and whether new evidence appropriately changes the recommendation.
-
-Those are evaluation goals. This repository does not report completed validation against them.
-
-## About Benjamin
-
-I work at the intersection of public-sector strategy, technology adoption, and executive decision-making. At Nett Werth, I am developing EDS around a practical question: what would help someone make a consequential choice with greater clarity and accountability?
-
-[LinkedIn — Benjamin Bowles](https://www.linkedin.com/in/benjamintbowles)
+The next evidence to collect is whether real decision owners find the intake manageable, understand the tradeoffs, trust the evidence distinctions, and can use the resulting next steps. The private beta is ready for owner review; payments remain disabled.
